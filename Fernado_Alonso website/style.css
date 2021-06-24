@@ -1,0 +1,73 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url(./Alpine-F1-0-1024x555.jpg);
+    width: 100%;
+    background-size:cover;
+
+    
+    
+}
+
+.box {
+    width: 450px;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: sans-serif;
+    background:rgba(71, 113, 167, 0.3);
+}
+
+.box img {
+    border-radius: 50%;
+    width: 220px;
+    height: 200px;
+    cursor: pointer;
+    transition: 0.5s;
+   
+}
+.box image:hover{
+    transform:scale(0.9);
+}
+
+.box h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin-bottom: 0px;
+    color: rgba(rgb(124, 145, 139), green, blue, alpha);
+
+}
+
+.box h5{
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+.box p {
+    text-align: justify;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+
+}
+.box li {
+    display: inline;
+    margin: 6px;
+    list-style: none;
+}
+
+.box li a{
+    color: white;
+    font-size: 60px;
+    transition: all ease-in-out 250 ms;
+}
+
+.box li a:hover{
+    color: #6b5e5e;
+}
