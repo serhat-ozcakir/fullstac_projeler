@@ -1,0 +1,106 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    background: url(./9961373335602.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+.container .navbar {
+    width: 100%;
+    height: 80px;
+    background: rgba(22, 112, 214, 0.3);
+}
+
+.navbar .logo {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.navbar .logo a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: snow;
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    line-height: 75px;
+    margin-right: 10px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: 'Roboto', sans-serif;
+    transition: .5s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover {
+    background: #ff6e00;
+    border-radius: 10px;
+}
+
+.container .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    user-select: none;
+}
+
+.center h1 {
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+
+.center h2 {
+    color: cornsilk;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    width: 880px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.center .buttons {
+    margin: 35px 280px;
+}
+
+.center .buttons button {
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffb3b3;
+    background: rgb(207, 96, 88);
+    border: solid 1px red;
+    cursor: pointer;
+    border: 25px;
+    border-radius: 25px;
+    margin-right: 10px;
+
+}
+
+.buttons button:hover {
+    background:#fff ;
+    transition: 0.5s;
+}
