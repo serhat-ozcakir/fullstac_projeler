@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #f7f1f1;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: red;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f7f1f1;
+}
+
+.navbar .navbar-sass {
+  margin-left: 10px;
+  margin-top: 8px;
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+
+.navbar .navbar-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 10px;
+}
+
+.navbar .navbar-link li {
+  list-style: none;
+  padding: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar .navbar-link .active {
+  background-color: #68e968;
+  border-radius: 5px;
+}
+
+.navbar .navbar-link a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar .navbar-link :hover {
+  background-color: #68e968;
+  border-radius: 5px;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #f7f1f1;
+}
+
+.main .main-text {
+  margin-top: 100px;
+  margin-left: 10px;
+}
+
+.main h1 {
+  color: #68e968;
+  font-size: 50px;
+}
+
+.main p {
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+.main .button {
+  margin-top: 20px;
+  background-color: #68e968;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 30%;
+  height: 10%;
+  font-size: 15px;
+}
+
+.main .active {
+  background-color: red;
+  -webkit-transition: all 4s;
+  transition: all 4s;
+}
+
+.main .active1 {
+  background-color: #68e968;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.main .main-image {
+  margin-top: 30px;
+  margin-right: -90px;
+}
+
+.main .logo {
+  width: 70%;
+}
+/*# sourceMappingURL=style.css.map */

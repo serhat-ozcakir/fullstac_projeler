@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(247, 241, 241);
+}
+
+.navbar{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    background-color: red;
+    align-items: center;
+    background-color: rgb(247, 241, 241);
+    
+
+    .navbar-sass{
+        margin-left: 10px;
+        margin-top: 8px;
+        font-size: 25px;
+        font-weight: bolder;
+        font-family: sans-serif;
+    }
+    .navbar-link{
+        display: flex;
+        margin-right: 10px;
+        li{
+            list-style: none;
+            padding: 10px;
+            justify-content: center;
+            display: flex;
+            
+           
+        } .active {
+            background-color: rgb(104, 233, 104);
+            border-radius: 5px;
+        }
+         a{
+            text-decoration: none;
+            font-family: sans-serif;
+            color: black;
+            margin-left: 10px;
+            margin-right: 10px;
+            align-items: center;
+            justify-content: center;
+            
+            // margin: 0px 10px;
+
+        } & :hover{
+            background-color: rgb(104, 233, 104);
+            border-radius: 5px;
+            
+        }
+    }
+}
+
+.main {
+    display: flex;
+    // width: 50%;
+    justify-content: space-between;
+    background-color: rgb(247, 241, 241);
+
+    .main-text{
+        margin-top: 100px;
+        margin-left: 10px;
+    } h1{
+        color:rgb(104, 233, 104);
+        font-size: 50px;
+    }
+    p{
+        font-size:25px;
+        font-family: sans-serif;
+        font-weight: bolder;
+        margin-top: 10px;
+    }
+
+    .button{
+        margin-top: 20px;
+        background-color: rgb(104, 233, 104);
+        color: white;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        width: 30%;
+        height: 10%;
+        font-size: 15px;
+       
+    } .active{
+        background-color: red;
+        transition: all 4s;
+    }
+
+    .active1{
+        background-color: rgb(104, 233, 104);
+        transition: all 1s;
+    }
+
+    .main-image{
+        // width: 10%;
+        margin-top: 30px;
+        margin-right: -90px;
+    } .logo{
+        width: 70%;
+    }
+}
