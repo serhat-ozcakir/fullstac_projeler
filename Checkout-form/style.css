@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 15px;
+}
+p{
+    font-size: 20px;
+}
+.form {
+    display: flex;
+    margin-top: 40px;
+    /* border: 1px solid red; */
+}
+
+.form-left{
+    width: 50%;
+    margin-left: 150px;
+}
+
+.form-right {
+    width: 30%;
+    margin-right: 130px;
+}
+
+.form-right-info{
+    margin-right: 40px;
+}
+
+.a{
+    margin-right: 40px;
+    /* border: 1px solid red; */
+}
+
+.form-left-second{
+    margin-top: 30px;
+}
+
+.double {
+    display: flex;
+    margin-top: 20px;
+}
+
+.input {
+    line-height: 20px;
+    width: 60%;
+    border-radius: 5px;
+    margin-top: 8px;
+    
+    /* border: none;
+    outset:none; */
+}
+/* .label {
+    padding-top:10px ;
+} */
+
+.input2,
+.input3{
+    line-height: 20px;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+.country-left{
+    /* border: 1px solid red; */
+    margin-right: 15px;
+}
+.input-icons{
+    position: relative;
+}
+#icon {
+    position: absolute;
+    left: 5px;
+    color: black;
+    font-size: 15px;
+    margin-top: 13px;
+}
+
+#email,
+#phone,
+#name,
+#adress,
+#city,
+#postcode{
+    text-indent: 22px;
+}
+
+#icon1{
+    margin-top:-20px ;
+    left: 5px;
+    position: absolute;
+}
+.input2{
+    /* border: 1px solid blue; */
+    height: 24px;
+    width: 110%;
+}
+.input3{
+    width: 162%;
+}
+
+.check{
+    margin-top: 15px;
+}
+
+.form-right{
+    /* border: 1px solid red;  */
+    background-color: rgba(214, 207, 207, 0.315);
+    border-radius: 20px;
+    height: 350px;
+}
+
+.image1,
+.image2{
+    width: 50%;
+    border-radius: 20px;
+    padding: 13px;
+}
+
+.form-right-up
+
+{
+    display: flex;
+}
+
+.buton-out{
+    /* border: 1px solid blue; */
+    width: 80%;
+    border-radius: 10px;
+}
+
+.input-mik1{
+    /* border: 1px solid red; */
+    width: 30%;
+    height: 20px;
+    border: none;
+    text-align: center;
+}
+
+.input-mik2{
+    width: 30%;
+    height: 20px;
+    border: none;
+    text-align: center;
+    /* background-color: rgba(214, 207, 207, 0.315); */
+}
+
+
+.buton{
+    border: 1px solid gray;
+    width: 80%;
+    text-align: center;
+    border-radius: 7px;
+}
+
+
+
+.btn1,
+.btn2 {
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.btn1,
+.btn2,
+.input-mik1{
+    padding: 7px 7px ;
+}
+
+.form-right-down{
+    display: flex;
+}
+
+.form-right-info{
+    margin-top: 10px;
+}
+
+.a{
+    margin-top: 10px;
+}
+
+.p1,
+.p2{
+    color: orangered;
+}
+
+.pay {
+    /* border: 1px solid blue; */
+    width: 80%;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.pay-up,
+.pay-down {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pay-down{
+    margin-top: 5px;
+}
+
+.continue{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.button {
+    background-color: orangered;
+    color: white;
+    height: 35px;
+    width: 7%;
+    border-radius: 12px;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+}
+
+ /* .bir {
+    border: 1px solid black;
+    width: 60%;
+    line-height: 2px;
+    border-radius: 8px;
+} 
+
+.fa fa-envelope {
+    padding-left: 10px;
+} */
+
+/* .iki {
+    border: 1px solid blue
+} */ 
+
+/* #charCount{
+    /* border: 1px solid red; */
+} 
+
+@media  screen and (min-width: 420px) and (max-width:720px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+      width: 400px;
+      flex-wrap: wrap;
+    }
+  }
