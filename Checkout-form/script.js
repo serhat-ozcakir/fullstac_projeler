@@ -5,6 +5,7 @@ console.log(input);
 
 
 const eksi = document.querySelector('.btn1');
+console.log(eksi);
 
 const arti = document.querySelector('.btn2');
 
