@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+}
+
+
+p{
+    padding: 20px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    color:rgb(79, 135, 161);
+    font-size: 4rem;
+    margin-top: 18rem;
+    
+}
+
+h3{
+    color:white;
+   
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 3rem;
+}
