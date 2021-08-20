@@ -8,6 +8,7 @@ const eksi = document.querySelector('.btn1');
 console.log(eksi);
 
 const arti = document.querySelector('.btn2');
+console.log(arti);
 
 
 const eksi1 = document.querySelector('#btn3');
