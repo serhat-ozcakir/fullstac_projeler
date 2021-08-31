@@ -50,7 +50,7 @@ function stopWatch(){
 
     
 }
-// console.log(document.getElementById('display'));
+console.log(document.getElementById('display'));
 
 // window.setInterval(stopWatch, 1000);
 
